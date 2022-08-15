@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/','PrincipalController@index')->name("site.index");
+Route::get('/sobrenos','PrincipalController@sobre')->name("site.quemsomos");
+Route::get('/contato', 'ContatoController@contato')->name("site.contato");
 
-Route::get('/', function () {
-    return view('index');
-});
