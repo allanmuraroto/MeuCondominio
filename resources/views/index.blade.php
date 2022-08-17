@@ -25,9 +25,23 @@
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 </head>
 <body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a class="nav-link" href="{{ route('site.index')}}">Index</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ route('site.quemsomos')}}">Quem somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ route('site.contato')}}">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <div class="container">
         <div class="row">
-            <div class="jumbotron col-12">
+            <div class="jumbotron col-12 mt-3">
                 <h1 class="display-4">Meu Condimínio</h1>
                 <p class="lead">Sistema open source para gerenciamento</p>
                 <hr class="my-4">
@@ -35,11 +49,7 @@
                 <a class="btn btn-primary btn-lg" href="#" role="button">Apoia.se</a>
               </div>
               <div class="menu-container">
-                <ul>
-                    <li><a href="{{ route('site.index')}}">Index</a></li>
-                <li><a href="{{ route('site.quemsomos')}}">Quem somos</a></li>
-                <li><a href="{{ route('site.contato')}}">Contato</a></li>
-                </ul>
+
               </div>
               <div class="body-container">
                 <h2>Somos o maior!</h2>
