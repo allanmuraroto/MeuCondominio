@@ -26,39 +26,28 @@
 </head>
 <body>
     <header>
-        <nav class="nav-bar">
-            <div class="logo">
-                <h1>Logo</h1>
-            </div>
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a class="nav-link" href="{{ route('site.index')}}">Index</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ route('site.quemsomos')}}">Quem somos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ route('site.contato')}}">Contato</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <div class="row">
-            <div class="jumbotron col-12 mt-3">
-                <h1 class="display-4">Meu Condimínio</h1>
-                <p class="lead">Sistema open source para gerenciamento</p>
-                <hr class="my-4">
-                <p>Gosutou você pode ajudar o projeto a continuar crescendo.</p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Apoia.se</a>
-              </div>
-              <div class="menu-container">
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a href="#" class="navbar-brand">
+                    <img id ="logo" src="img/logo.png" alt="Meu Condomínio"> Meu Condomínio
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation"> {{-- Toggle tava caps lock --}}
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="home-menu">Home</a>
+                        <a class="nav-item nav-link" id="about-menu">Sobre</a>
+                        <a class="nav-item nav-link" id="services-menu">Serviços</a>
+                        <a class="nav-item nav-link" id="team-menu">Time</a>
+                        <a class="nav-item nav-link" id="portfolio-menu">Projetos</a>
+                        <a class="nav-item nav-link" id="contact-menu">Contato</a>
+                    </div>
 
-              </div>
-              <div class="body-container">
-                <h2>Somos o maior!</h2>
-              </div>
+                </div>
+            </nav>
         </div>
-    </div>
-
-{{--     <img src="img/banner.jpg" alt="Banner">
- --}}
+    </header>
 
     <script src="js/scripts.js"></script>
 </body>
