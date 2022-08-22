@@ -13,7 +13,7 @@
                     <a class="nav-item nav-link" href="{{route('site.quemsomos')}}" id="about-menu">Sobre</a>
                     <a class="nav-item nav-link" href="" id="services-menu">Serviços</a>
                     <a class="nav-item nav-link" href="" id="team-menu">Time</a>
-                    <a class="nav-item nav-link" href="" id="portfolio-menu">Projetos</a>
+                    <a class="nav-item nav-link" href="" id="portfolio-menu">Condomínios</a>
                     <a class="nav-item nav-link" href="{{route('site.contato')}}" id="contact-menu">Contato</a>
                 </div>
 
