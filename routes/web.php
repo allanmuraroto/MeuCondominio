@@ -15,4 +15,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/','PrincipalController@index')->name("site.index");
 Route::get('/sobrenos','PrincipalController@sobre')->name("site.quemsomos");
 Route::get('/contato', 'ContatoController@contato')->name("site.contato");
+Route::get('/servicos', 'PrincipalController@servicos')->name('site.servicos');
+Route::get('/time', 'PrincipalController@time')->name('site.time');
+Route::get('/clientes', 'PrincipalController@clientes')->name('site.clientes');
 

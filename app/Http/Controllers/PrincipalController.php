@@ -11,6 +11,21 @@ class PrincipalController extends Controller
         return view('index');
     }
 
+    public function servicos()
+    {
+        return view('servicos');
+    }
+
+    public function time()
+    {
+        return view('time');
+    }
+
+    public function clientes()
+    {
+        return view('clientes');
+    }
+
     public function sobre()
     {
         return view('quemsomos');

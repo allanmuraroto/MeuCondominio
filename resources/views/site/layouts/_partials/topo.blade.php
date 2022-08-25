@@ -11,9 +11,9 @@
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" href="{{route('site.index')}}" id="home-menu">Home</a>
                     <a class="nav-item nav-link" href="{{route('site.quemsomos')}}" id="about-menu">Sobre</a>
-                    <a class="nav-item nav-link" href="" id="services-menu">Serviços</a>
-                    <a class="nav-item nav-link" href="" id="team-menu">Time</a>
-                    <a class="nav-item nav-link" href="" id="portfolio-menu">Condomínios</a>
+                    <a class="nav-item nav-link" href="{{route('site.servicos')}}" id="services-menu">Serviços</a>
+                    <a class="nav-item nav-link" href="{{route('site.time')}}" id="team-menu">Time</a>
+                    <a class="nav-item nav-link" href="{{route('site.clientes')}}" id="clientes-menu">Clientes</a>
                     <a class="nav-item nav-link" href="{{route('site.contato')}}" id="contact-menu">Contato</a>
                 </div>
 
