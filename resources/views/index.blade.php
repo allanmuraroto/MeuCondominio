@@ -55,8 +55,32 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
-
-
+        </div>
+        <div id="data-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 circle-box">
+                        <div id="circleA">
+                            <p>projetos entregues</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 circle-box">
+                        <div id="circleB">
+                            <p>projetos entregues</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 circle-box">
+                        <div id="circleC">
+                            <p>projetos entregues</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 circle-box">
+                        <div id="circleD">
+                            <p>projetos entregues</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </main>
