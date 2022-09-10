@@ -23,10 +23,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     {{-- Parallax --}}
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+
 </head>
 <body>
     @include('site.layouts._partials.topo') // {{-- include do menu na página --}}
     @yield('conteudo')
     <script src="js/scripts.js"></script>
+    {{-- Progress Bar --}}
+    <script src="js/progressbar.min.js"></script>
 </body>
 </html>
