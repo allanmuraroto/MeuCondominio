@@ -27,8 +27,10 @@
 
 </head>
 <body>
-    @include('site.layouts._partials.topo') // {{-- include do menu na página --}}
+    @include('site.layouts._partials.topo') {{-- include do menu na página --}}
     @yield('conteudo')
+    @yield('content')
+    @yield('footer')
     <script src="js/scripts.js"></script>
     {{-- Progress Bar --}}
     <script src="js/progressbar.min.js"></script>
