@@ -68,7 +68,7 @@ $(document).ready(function(){
         step: function(state, circle){
             circle.path.setAttribute('stroke', state.color);
 
-            let value = Math.round(circle.value() * 655);
+            let value = Math.round(circle.value() * 56235);
 
             circle.setText(value);
         }
@@ -92,5 +92,12 @@ $(document).ready(function(){
 
             stop = 1;
         }
-    })
+    });
+
+    /* Parallax */
+
+    setTimeout(function() {
+        $('#data-area').parallax({imageSrc: 'img/citybackgroundcircle.jpg'})
+    },250);
+
 });

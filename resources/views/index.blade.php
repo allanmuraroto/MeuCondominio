@@ -61,7 +61,7 @@
                 <div class="row">
                     <div class="col-md-3 circle-box">
                         <div id="circleA">
-                            <p>projetos entregues</p>
+                            <p>Funcionários felizes</p>
                         </div>
                     </div>
                     <div class="col-md-3 circle-box">
@@ -71,12 +71,12 @@
                     </div>
                     <div class="col-md-3 circle-box">
                         <div id="circleC">
-                            <p>projetos entregues</p>
+                            <p>Anos de mercado</p>
                         </div>
                     </div>
                     <div class="col-md-3 circle-box">
                         <div id="circleD">
-                            <p>projetos entregues</p>
+                            <p>Bugs que Corrigimos</p>
                         </div>
                     </div>
                 </div>
