@@ -19,3 +19,8 @@ Route::get('/servicos', 'PrincipalController@servicos')->name('site.servicos');
 Route::get('/time', 'PrincipalController@time')->name('site.time');
 Route::get('/clientes', 'PrincipalController@clientes')->name('site.clientes');
 
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});

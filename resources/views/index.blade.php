@@ -3,7 +3,17 @@
 @section('titulo', 'Home')
 
 @section('conteudo')
-
+<strong>Database Connected: </strong>
+<?php
+    try {
+        \DB::connection()->getPDO();
+        echo \DB::connection()->getDatabaseName();
+        echo "...  Conectado a Base de Dados RDS AWS.";
+        } catch (\Exception $e) {
+            echo 'None';
+            dd($e);        
+    }
+?>
 <main>
     <div class="container-fluid">
         <div id="mainSlider" class="carousel slide" data-ride="carousel">
